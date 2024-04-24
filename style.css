@@ -1,0 +1,86 @@
+.box{
+    display: flex;
+    justify-content: center;
+}
+.box1 img{
+    width: 550px;
+    height: 500px;
+}
+.play{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    bottom: 300px ;
+    left: 225px;
+    border-radius: 50px ;
+    animation: a 2ms ;
+    animation-iteration-count: infinite;
+}
+.play i{
+    position: relative;
+    top: 25px;
+    left: 28px;
+    font-size: 50px ;
+    color: pink;
+}
+@keyframes a{
+    0%{
+        box-shadow: 0px 0px 5px 10px  rgb(255, 255, 255, ) ;
+    }
+    100%{
+        /* box-shadow: 0px 0px 100px 25px  rgb(255, 252, 252,) ; */
+    }
+}
+.box2{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    text-align: center;
+}
+.box2 h4{
+    font-size: 30px ;
+}
+.box2 p{
+    color: white;
+    font-size: 15px ;
+}
+.box2 button{
+    width: 150px;
+    /* padding: 20px ; */
+    height: 50px ;
+    border-radius: 30px;
+    font-size: 25px;
+    background-color: rgb(64, 248, 248);
+    color: pink;
+    border: 2px solid ;
+    margin-top: 30px ;
+}
+.sent{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50px ;
+    margin-left: 198px ;
+}
+.sent h1{
+    position: relative;
+    top: 30px ;
+    color: aqua;
+}
+@media (max-width:667px) {
+    .box{
+        grid-template-columns: auto;
+        display: grid;
+    }
+    .box2{
+        position: relative;
+        bottom: 103px ;
+        width: 550px; ;
+        text-align: center;
+    }
+    .sent{
+        position: relative;
+        left: 30px;
+    }
+}
