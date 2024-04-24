@@ -68,7 +68,7 @@
     top: 30px ;
     color: aqua;
 }
-@media (max-width:667px) {
+@media (max-width:800px) {
     .box{
         grid-template-columns: auto;
         display: grid;
